@@ -2,7 +2,57 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
+$primary: #4c956c;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.absolute-center {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.button-effect:hover {
+  color: white;
+  background-color: #4c956c;
+}
+
+.letter-spacing {
+  letter-spacing: 1px;
+}
+
+.btn-primary {
+  border: #4c956c solid 2px;
+  background-color: white;
+  color: #4c956c;
+  font-weight: bold;
+}
+
+.line {
+  position: relative;
+}
+
+.line:after {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 1px;
+  background: black;
+  content: "";
+  width: 100%;
+  display: block;
+}
+
+.image {
+  
+  object-fit: cover;
+  object-position: center;
+}
 // Then add additional custom code here
