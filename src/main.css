@@ -10820,7 +10820,11 @@ textarea.form-control-lg {
 }
 body {
   font-family: "Montserrat", sans-serif;
-  overflow-x: hidden;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .absolute-center {
